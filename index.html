@@ -105,6 +105,7 @@
   .pill{ font-family:'Assistant',sans-serif; font-weight:500; font-size:14px; padding:5px 12px; border-radius:999px; white-space:nowrap; }
   .pill.st-ממתין{ background:var(--danger-soft); color:var(--danger); }
   .pill.st-בטיפול{ background:var(--amber-soft); color:var(--amber); }
+  .pill.st-הוזמן{ background:#FDEFA8; color:#7A5A0A; }
   .pill.st-סופק{ background:var(--acc-soft); color:var(--acc-d); }
   .pill.st-בוטל{ background:var(--gray-soft); color:var(--gray2); }
 
@@ -226,7 +227,7 @@
     const SUPABASE_URL = "https://lsgwujpgwdusfqxamijv.supabase.co";
     const SUPABASE_KEY = "sb_publishable_Osz-jlvVA8H9Z50xhiGulQ_PB-UZxwb";
     const EDIT_PIN = "ofek2026"; // קוד למצב "איש רכש" — אפשר לשנות כאן
-    const STATUSES = ["ממתין","בטיפול","סופק","בוטל"];
+    const STATUSES = ["ממתין","בטיפול","הוזמן","סופק","בוטל"];
     const PRIORITIES = ["רגילה","גבוהה","דחופה"];
     const PRIO_RANK = { "דחופה":0, "גבוהה":1, "רגילה":2 };
     const PRIO_ICON = { "דחופה":"ti-flame", "גבוהה":"ti-arrow-up", "רגילה":"ti-minus" };
